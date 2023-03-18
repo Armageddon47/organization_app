@@ -2,7 +2,6 @@ import os
 import shutil
 import hashlib
 
-
 # set the file permissions to read and write for owner
 
 def get_file_hash(file_path):
