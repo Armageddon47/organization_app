@@ -28,8 +28,8 @@ browse_folder_button = tk.Button(text="Browse Folder", command=browse_folder)
 browse_folder_button.pack()
 
 # Create a "Browse Destination" button
-#browse_destination_button = tk.Button(text="Browse Destination", command=browse_destination)
-#browse_destination_button.pack()
+browse_destination_button = tk.Button(text="Browse Destination", command=browse_destination)
+browse_destination_button.pack()
 
 # Create an "Organize" button
 organize_button = tk.Button(text="Organize", command=organize_files(browse_folder()))
